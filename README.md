@@ -2,6 +2,15 @@
 
 ### This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person
 
+## To use this Application
+
+- Clone repo on a machine running Node.js
+- Navigate to local repo directory
+- Type 'node index.js' to start app
+- Generated HTML file will be in dist/ folder
+
+[See Video](https://watch.screencastify.com/v/JRof8Ubkxqj1d8BgtiwK)
+
 ## User Story
 
 ```
