@@ -122,5 +122,5 @@ addManager()
     .then(() => generateHtml(team))
     .then(html => fs.writeFile('./dist/index.html', html, err => {
         if(err) throw err
-        console.log('HTML generate')
+        console.log('Success! index.html file generated in the dist/ folder')
     }))
