@@ -67,7 +67,6 @@ const renderIntern = (obj) => {
             <div class="card-body bg-light">
                 <div class="list-group list-group-flush">
                     <div class="list-group-item">ID: ${obj.id}</div>
-                    <div class="list-group-item">ID: ${obj.id}</div>
                     <div class="list-group-item">Email: <a href = "mailto: ${obj.email}">${obj.email}</a></div>
                     <div class="list-group-item">School: ${obj.school}</div>
                 </div>
