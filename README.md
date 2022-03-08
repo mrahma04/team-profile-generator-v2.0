@@ -6,8 +6,8 @@
 
 - Clone repo on a machine running Node.js
 - Navigate to local repo directory
-- Type 'node index.js' to start app
-- Generated HTML file will be in dist/ folder
+- Type `node index.js` to start app
+- Generated HTML file will be in `dist/` :file_folder: folder 
 
 [See Video](https://watch.screencastify.com/v/JRof8Ubkxqj1d8BgtiwK)
 
