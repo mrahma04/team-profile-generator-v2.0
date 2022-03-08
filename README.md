@@ -6,6 +6,7 @@
 
 - Clone repo on a machine running Node.js
 - Navigate to local repo directory
+- Install Node modules using `npm i`
 - Type :pencil2:`node index.js` to start app
 - Generated HTML file will be in :file_folder: `dist/` folder 
 
