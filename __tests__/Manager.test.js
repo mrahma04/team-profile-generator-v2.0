@@ -1,7 +1,7 @@
 const Manager = require('../lib/Manager')
 
 test('creates a manager object', () => {
-    const manager = new Manager('Jared', 1, 'jared@fakemail.com', 'Manager', 1)
+    const manager = new Manager('Jared', 1, 'jared@fakemail.com', 1)
 
     expect(manager.name).toBe('Jared')
     expect(manager.id).toEqual(1)
@@ -11,25 +11,25 @@ test('creates a manager object', () => {
 })
 
 test('gets manager object\'s name', () => {
-    const manager = new Manager('Jared', 1, 'jared@fakemail.com')
+    const manager = new Manager('Jared', 1, 'jared@fakemail.com', 1)
 
     expect(manager.getName()).toBe('Jared')
 })
 
 test('gets manager object\'s id', () => {
-    const manager = new Manager('Jared', 1, 'jared@fakemail.com')
+    const manager = new Manager('Jared', 1, 'jared@fakemail.com', 1)
 
     expect(manager.getId()).toEqual(1)
 })
 
 test('gets manager object\'s email address', () => {
-    const manager = new Manager('Jared', 1, 'jared@fakemail.com')
+    const manager = new Manager('Jared', 1, 'jared@fakemail.com', 1)
 
     expect(manager.getEmail()).toBe('jared@fakemail.com')
 })
 
 test('gets role of manager object', () => {
-    const manager = new Manager('Jared', 1, 'jared@fakemail.com', 'Manager', 1)
+    const manager = new Manager('Jared', 1, 'jared@fakemail.com', 1)
 
     expect(manager.getRole()).toBe('Manager')
 })
